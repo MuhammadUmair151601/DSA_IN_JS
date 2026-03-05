@@ -84,4 +84,17 @@
 // let a = 10;
 // let b = ++(a++);
 // console.log(b);
-// will throw error  
+// will throw error
+
+// Math methods:
+// Math.round
+// Math.ceil
+// Math.floor
+// Math.random
+// Math.sqrt
+// tofixed()
+// Math.cbrt
+// Math.abs(-15)
+// Math.max(numbers)
+// Math.min(numbers)
+// Math.trunc(removes decimal values after point)

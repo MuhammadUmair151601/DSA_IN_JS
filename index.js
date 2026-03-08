@@ -115,3 +115,41 @@
 // }
 
 // console.log(amount);
+
+
+// *************Ternary operator****************
+
+// condition ? true : false
+// 12>13 ? console.log("true") : console.log("false")
+// let num = -1;
+// console.log(num>0?"positive":num<0?"negative":"zero")
+
+// ************Switch case ************************
+// let day = 6;
+
+// switch(day){
+//   case 1: console.log("monday");
+//   break;
+
+//   case 2: console.log("Tuesday")
+//   break;
+
+//   case 3: console.log("wednesday")
+//   break;
+
+//   case 4: console.log("Thursday")
+//   break;
+
+//   case 5: console.log("friday")
+//   break;
+
+//   case 6: console.log("saturday")
+//   break;
+
+//   case 7: console.log("sunday")
+//   break;
+
+//   default: console.log("invalid")
+// }
+
+// when we need no comparison we will use switch case:

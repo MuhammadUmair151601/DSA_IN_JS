@@ -1,100 +1,62 @@
-// let a = 4;
-// let b = 6;
-// console.log(a+b);
+// Understanding conditionals
+// Valid voter:
+// let age = +prompt("Enter your age:");
 
+// if (isNaN(age === NaN)) {
+//   console.log("wrong input");
 
-// console.log("2"+2);
-// let a = 10;
-// let b = 20;
-// console.log("the sum of 10 and 20 is " + a + b); this won't work
+// } else if (age >= 18) {
+//   console.log("you can vote");
 
-// console.log(a+b+" is the sum of 10 and 20") this will work 
+// } else {
+//   console.log("you cannot vote");
+// }
 
-// as the operations works from left to right 
-// 1+"1" = 11;
-// 1-1=0;
-// 1/1=1
-// 1*1=1
+// Shop discount 
 
-// let a = Number(prompt("Enter A"))
-// let b = Number(prompt("Enter B"))
+// let amount = +prompt("what is the total amount")
+// if(amount > 0 && amount <= 5000){
+//   console.log(amount)
+// }
 
-// console.log(a + b)
+// else if(amount > 5000 && amount <= 7000){
+//   console.log(amount-Math.floor((5*amount)/100));
+// }
 
-// a = 10;
-// b = 20;
-// a = a + b; 
-// // a value now 30
-// b = a - b;
-// // b value now 10
-// a = a - b;
-// // b value now 20
-// console.log(a)
-// console.log(b)
+// else if (amount >7000 && amount <= 9000){
+//   console.log(amount - Math.floor(10*amount/100));
+// }
 
-// let a = 1;
-// let b = 2;
-// [a,b] = [b,a]
-// console.log(a)
-// console.log(b)
-// destructuring assignment in js
+// else if (amount >9000 && amount <= 12000){
+//   console.log(amount - Math.floor(20*amount/100));
+// }
 
-// getting exact value rather than decimal number.
-// let a = 3;
-// let b = 2;
-// console.log(Math.floor(a/b))
+// else{
+//   console.log("wrong input")
+// }
 
-// ison operators <> <= >= != == === !==
-// console.log(10<5);
-// will return false:
-// console.log(10!==11);
-// returns false 
-// === compares as well as its datatype
+// Alternate Method:
 
-// logical operators:
-// && || !
-// && both must be true so result true
-// || at least one must be true
+// let amount = +prompt("what is the total amount")
+// let dis = 0; 
+// if(amount > 0 && amount <= 5000){
+//  dis = 0;
+// }
 
-// unary operator ++ --
-// ++ increment 
-// -- decrement
-// ++a pre a++ post
+// else if(amount > 5000 && amount <= 7000){
+//   dis = 5;
+// }
 
-// let i = 11;
-// i = i++ + ++i;
-//i++ will give 11 and ++i will give 13 as i already got to 12 with i++ operation:
-// console.log(i);
+// else if (amount >7000 && amount <= 9000){
+//  dis = 10;
+// }
 
-// let a = 11;
-// let b = 22;
-// let c = a + b + a++ + b++ + ++a + ++b;
+// else if (amount >9000 && amount <= 12000){
+//   dis = 20;
+// }
 
-// console.log("a = " + a);
-// console.log("b = " + b);
-// console.log("c =" + c);
+// else{
+//   console.log("wrong input")
+// }
 
-// let b = true;
-// b = b++;
-// console.log(b);
-
-// unary op not applied on const:
-// 15++ will throw error:
-
-// let a = 10;
-// let b = ++(a++);
-// console.log(b);
-// will throw error
-
-// Math methods:
-// Math.round
-// Math.ceil
-// Math.floor
-// Math.random
-// Math.sqrt
-// tofixed()
-// Math.cbrt
-// Math.abs(-15)
-// Math.max(numbers)
-// Math.min(numbers)
-// Math.trunc(removes decimal values after point)
+// console.log(amount-Math.floor((dis*amount)/100));

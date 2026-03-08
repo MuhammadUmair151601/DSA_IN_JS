@@ -60,3 +60,27 @@
 // }
 
 // console.log(amount-Math.floor((dis*amount)/100));
+
+// **************Bill calculation *********************
+// if units > 400 per unit charges 13
+// if units > 200 per unit charges 8
+// let units = +prompt("Enter the Unints consumed:")
+// let amount = 0;
+// if(units>400){
+//   amount = (units-400)*13 //3900
+//   units = 400
+// }
+// // using another if because all conditions will be used:
+// if(units > 200 && units <=400){
+//   amount += (units - 200) * 8 //1600
+//   units = 200;
+// }
+
+// if(units > 100 && units <= 200){
+//   amount += (units - 100) *6;
+//   units = 100;
+// }
+
+// amount += units*4;
+
+// console.log(amount);

@@ -84,3 +84,34 @@
 // amount += units*4;
 
 // console.log(amount);
+
+// ***************PKR denomination*****************
+
+// let amount = 5001;
+// if(amount>=500){
+//   console.log("itnay 500 k notes" + Math.floor(amount/500));
+//   amount = amount% 500;
+// }
+// if(amount>=100){
+//   console.log("itnay 100 k notes" +Math.floor(amount/500))
+//   amount = amount% 500;
+// }
+// if(amount>=50){
+//   console.log("itnay 50 k notes" +Math.floor(amount/500))
+//   amount = amount% 500;
+// }
+// if(amount>=20){
+//   console.log("itnay 20 k notes" +Math.floor(amount/500))
+//   amount = amount% 500;
+// } 
+// if(amount>=10){
+//   console.log("itnay 10 k notes" +Math.floor(amount/500))
+//   amount = amount% 500;
+// }
+
+// if(amount===1){
+//   console.log("itnay 1 k coins"+ amount)
+//   amount = amount% 500;
+// }
+
+// console.log(amount);
